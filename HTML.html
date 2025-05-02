@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML </title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="10" bgcolor="#a7d8d8" bordercolor="white" width="100%">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><hr><br>
+    <p>List can be nested (list inside list)</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <ul type="circle">
+            <li>Black Tea</li>
+            <li>Green Tea</li>
+        </ul>
+        <li>Milk</li>
+    </ul>
+    <br><hr><br>
+    <p>Clich any of the following links</p>
+    <nav>
+        <a href="https://www.youtube.com" target="_blank">Opens in New</a> | 
+        <a href="https://www.google.com" target="_self">Opens in Self</a> | 
+        <a href="https://www.facebook.com" target="_parent">Opens in Parent</a> |
+        <a href="https://www.flipkart.com" target="_top">Opens in Top</a> 
+    </nav>
+    <br><hr><br>
+    <h1 align="center"><font color="blue">Registration Form</font></h1>
+    <form action="post">
+        <table align="center" border="1" cellspacing="0">
+            <tr>
+                <th><label for="fname">First Name</label></th>
+                <td><input type="text" size="60"></td>
+            </tr>
+            <tr>
+                <th><label for="lname">Last Name</label></th>
+                <td><input type="text" size="60"></td>
+            </tr>
+            <tr>
+                <th><label for="email">Email</label></th>
+                <td><input type="email" size="60"></td>
+            </tr>
+            <tr>
+                <th><label for="password">Password</label></th>
+                <td><input type="password" size="60"></td>
+            </tr>
+            <tr>
+                <th><label for="password">Re-enter Password</label></th>
+                <td><input type="password" size="60"></td>
+            </tr>
+            <tr>
+                <th rowspan="2"><label for="gender">Gender</label></th>
+                <td><input type="radio"> <label for="male">Male</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio"> <label for="female">Female</label></td>
+            </tr>
+            <tr>
+                <th><label for="Age">Age</label></th>
+                <td><input type="text" size="60"></td>
+            </tr>
+            <tr>
+                <th><label for="phno">Phone Number</label></th>
+                <td><input type="tel" size="60"></td>
+            </tr>
+            <tr>
+                <th><label for="address">Address</label></th>
+                <td><textarea name="address" id="address" cols="56" rows="6"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="state">State</label></th>
+                <td><input type="state" size="60"></td>
+            </tr>
+            <tr>
+                <th><label for="country">Country</label></th>
+                <td>
+                    <input type="text" name="country" id="country" list="country-list"  placeholder="choose your country">
+                    <datalist id="country-list">
+                        <option value="Afghanistan">
+                        <option value="Armenia">
+                        <option value="Azerbaijan">
+                        <option value="Bahrain">
+                        <option value="Bangladesh">
+                        <option value="Bhutan">
+                        <option value="Brunei">
+                        <option value="Cambodia">
+                        <option value="China">
+                        <option value="Cyprus">
+                        <option value="Georgia">
+                        <option value="India">
+                        <option value="Indonesia">
+                        <option value="Iran">
+                        <option value="Iraq">
+                        <option value="Israel">
+                        <option value="Japan">
+                        <option value="Jordan">
+                        <option value="Kazakhstan">
+                        <option value="Kuwait">
+                        <option value="Kyrgyzstan">
+                        <option value="Laos">
+                        <option value="Lebanon">
+                        <option value="Malaysia">
+                        <option value="Maldives">
+                        <option value="Mongolia">
+                        <option value="Myanmar">
+                        <option value="Nepal">
+                        <option value="North Korea">
+                        <option value="Oman">
+                        <option value="Pakistan">
+                        <option value="Philippines">
+                        <option value="Qatar">
+                        <option value="Saudi Arabia">
+                        <option value="Singapore">
+                        <option value="South Korea">
+                        <option value="Sri Lanka">
+                        <option value="State of Palestine">
+                        <option value="Syria">
+                        <option value="Tajikistan">
+                        <option value="Thailand">
+                        <option value="Timor-Leste">
+                        <option value="Turkey">
+                        <option value="Turkmenistan">
+                        <option value="United Arab Emirates">
+                        <option value="Uzbekistan">
+                        <option value="Vietnam">
+                        <option value="Yemen">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="languages">Languages Known</label></th>
+                <td>
+                    <input type="checkbox"><label for="English">English </label>
+                    <input type="checkbox"><label for="Kannada">Kannada </label>
+                    <input type="checkbox"><label for="Hindi">Hindi </label>
+                    <input type="checkbox"><label for="Telugu">Telugu </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" required><label for="important1">Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: end;">
+                    Log in to 
+                    <a href="https://www.acharya.ac.in/">Acharya</a> website
+                </td>
+            </tr>
+        </table>
+        <br>
+        <div align="center">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
